@@ -22,6 +22,8 @@
   /* padding-left: 5px;
   padding-right: 5px; */
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .desc {
   font-weight: 400;
