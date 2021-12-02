@@ -13,7 +13,6 @@ const Card = props => {
         onMouseLeave={() => {
           setShow(false);
         }}
-        src={props.card.image}
         style={{ backgroundImage: `url(${props.card.image})` }}
       >
         <div className='desc'>{show && <p>{props.card.desc}</p>}</div>
